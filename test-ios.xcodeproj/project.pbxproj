@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		0A8EEE5DAEC0FE743B547D9F /* Pods_test_ios.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 311D24D41CA5801B2F857DE3 /* Pods_test_ios.framework */; };
+		B935B4E41F66EF0F00EB8DCA /* ExampleViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B935B4E31F66EF0F00EB8DCA /* ExampleViewController.swift */; };
 		EDBC47041F66EA4100D56D67 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDBC47031F66EA4100D56D67 /* AppDelegate.swift */; };
 		EDBC47061F66EA4100D56D67 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDBC47051F66EA4100D56D67 /* ViewController.swift */; };
 		EDBC47091F66EA4100D56D67 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EDBC47071F66EA4100D56D67 /* Main.storyboard */; };
@@ -17,6 +18,7 @@
 
 /* Begin PBXFileReference section */
 		311D24D41CA5801B2F857DE3 /* Pods_test_ios.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_test_ios.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B935B4E31F66EF0F00EB8DCA /* ExampleViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ExampleViewController.swift; sourceTree = "<group>"; };
 		BF2F0580115B74F1A529FEF3 /* Pods-test-ios.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-test-ios.release.xcconfig"; path = "Pods/Target Support Files/Pods-test-ios/Pods-test-ios.release.xcconfig"; sourceTree = "<group>"; };
 		DBB72DBB0B5AA446ED8490F4 /* Pods-test-ios.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-test-ios.debug.xcconfig"; path = "Pods/Target Support Files/Pods-test-ios/Pods-test-ios.debug.xcconfig"; sourceTree = "<group>"; };
 		EDBC47001F66EA4100D56D67 /* test-ios.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "test-ios.app"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -84,6 +86,7 @@
 				EDBC470A1F66EA4100D56D67 /* Assets.xcassets */,
 				EDBC470C1F66EA4100D56D67 /* LaunchScreen.storyboard */,
 				EDBC470F1F66EA4100D56D67 /* Info.plist */,
+				B935B4E31F66EF0F00EB8DCA /* ExampleViewController.swift */,
 			);
 			path = "test-ios";
 			sourceTree = "<group>";
@@ -220,6 +223,7 @@
 			files = (
 				EDBC47061F66EA4100D56D67 /* ViewController.swift in Sources */,
 				EDBC47041F66EA4100D56D67 /* AppDelegate.swift in Sources */,
+				B935B4E41F66EF0F00EB8DCA /* ExampleViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
